@@ -1,0 +1,23 @@
+
+
+
+header {
+    font-family: var(--nc-font-sans);
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--background);
+    color: var(--background)
+
+}
+
+body{
+    font-family: var(--nc-font-sans);
+    margin: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    background-color: var(--background);
+    color: var(--background)
+}
+
