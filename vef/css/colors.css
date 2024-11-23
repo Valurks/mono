@@ -16,33 +16,20 @@
     --nc-ac-tx: #595959;    /* Selection + mark */
 	--table-bg: rgba(255, 255, 255, .5);
 	--menu:#79FFE1;
-	
-
-
-	/* Dark mode */
-	--D-headings: #EAEAEA;    /* H1-H6 */
-    --D-body: #CCCCCC;        /* Body text */
-    --D-background: #121212;  /* Background 1 */
-    --D-background2: #1E1E1E; /* Background 2 */
-    --D-background3: #333333; /* Background 3 (fx border line form) */
-    --D-link: #BBBBBB;        /* A anchor (link) */
-    --D-linkH: #A6A6A6;       /* A anchor (hover) */
-    --D-button: #444444;      /* Button + input type */
-    --D-nc-ac-1: #555555;     /* Background selection + mark */
-    --D-nc-ac-tx: #F0F0F0;    /* Selection + mark */
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-        --headings: var(--D-headings); 
-        --body:  var(--D-body); 
-        --background: var(--D-background); 
-        --background2: var(:--D-background2);
-        --background3: var(--D-background3); 
-        --link: var(--D-link); 
-        --linkH: var(--D-linkH); 
-        --button: var(:--D-button);
-        --nc-ac-1: var(--D-nc-ac-1);
-        --nc-ac-tx: var(--D-nc-ac-tx);
-	}
+
+.darkmode {
+    --headings: #EAEAEA;    /* H1-H6 */
+    --body: #CCCCCC;        /* Body text */
+    --background: #121212;  /* Background 1 */
+    --background2: #1E1E1E; /* Background 2 */
+    --background3: #333333; /* Background 3 (fx border line form) */
+    --link: #BBBBBB;        /* A anchor (link) */
+    --linkH: #A6A6A6;       /* A anchor (hover) */
+    --button: #444444;      /* Button + input type */
+    --nc-ac-1: #555555;     /* Background selection + mark */
+    --nc-ac-tx: #F0F0F0;    /* Selection + mark */
 }
+
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,45 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/styling.css">
     <link rel="stylesheet" href="css/colors.css">
+    <script type="text/javascript" src="../vef/javascript/darkmode.js" defer></script>
 
-    
+
 </head>
-<body>
 
-<nav>
-    <input type="checkbox" class="navBtn" id="inputMenu">
-      <label for="inputMenu" class="navBtnIcon"> &#9776; </label>
-    <div class="navMenu" >
-        <a href="">Account</a>
-        <a href="">Already Guessed</a>
-        <a href="">Recent Guesses</a>
-    </div>
+<body class="darkmode">
+    <header>
+        <button id="theme-switch">
+            <img src="../pictures/light-on-black-sun-symbol-21618.svg" alt="" id="sun">
+            <img src="../pictures/moon-6686.svg" alt="" id="moon">
+        </button>
 
-    
-    <button class="mode" id="toggleTheme">Night</button>
-</nav>
+        <nav>
+            <input type="radio" class="navBtn" id="navBtn" name="nav">
+            <label for="navBtn" class="navBtnIcon"> &#9776; </label>
+            <div class="navMenu">
+                <input type="radio" class="closeNavBtn" id="closeNavBtn" name="nav">
+                <label for="closeNavBtn" class="closeNavBtnIcon"> &#10539; </label>
+                <a href="">Account</a>
+                <a href="">Already Guessed</a>
+                <a href="">Recent Guesses</a>
+            </div>
+        </nav>
+    </header>
 
-<section></section>
+    <label for="globalCloseNavBtn" class="globalCloseNavOverlay" id="overlay"></label>
+    <input type="radio" class="globalCloseNavBtn" id="globalCloseNavBtn" name="nav">
 
-<footer></footer>
+
+
+
+
+
+
+    <section></section>
+
+    <footer></footer>
 
 </body>
-<script src="javascript/script.js"></script>
+
+
 </html>
