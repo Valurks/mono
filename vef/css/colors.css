@@ -14,8 +14,8 @@
     --button: #999999;      /* Button + input type */
     --nc-ac-1: #D9D9D9;     /* Background selection + mark */
     --nc-ac-tx: #595959;    /* Selection + mark */
-	--table-bg: rgba(255, 255, 255, .5);
-	--menu:#79FFE1;
+
+    --shadowColor: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 }
 
 
