@@ -9,30 +9,34 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/styling.css">
     <link rel="stylesheet" href="css/colors.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html');
+        });
+    </script> -->
     <script type="text/javascript" src="../vef/javascript/darkmode.js" defer></script>
-
-
 </head>
 
-<body class="darkmode">
-    <header>
+<body>
+    <header id="header">
         <button id="theme-switch">
             <img src="../pictures/sun.svg" alt="" id="sun">
             <img src="../pictures/moon.svg" alt="" id="moon">
         </button>
-
+        
         <a href="" class="help">
             <img src="../pictures/questionW.svg" alt="">
             <img src="../pictures/question.svg" alt="">
         </a>
-
+        
         <nav>
             <input type="radio" class="navBtn" id="navBtn" name="nav">
             <label for="navBtn" class="navBtnIcon"> &#9776; </label>
-           
+        
             <input type="radio" class="globalCloseNavBtn" id="globalCloseNavBtn" name="nav">
             <label for="globalCloseNavBtn" class="globalCloseNavOverlay" id="overlay"></label>
-            
+        
             <div class="navMenu">
                 <input type="radio" class="closeNavBtn" id="closeNavBtn" name="nav">
                 <label for="closeNavBtn" class="closeNavBtnIcon"> &#10539; </label>
@@ -44,7 +48,7 @@
         </nav>
     </header>
 
-    
+
 
 
 
